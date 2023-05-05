@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">LIYA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Home section -->
+  <div class="profile-picture">
+    <img src="./img/C12 Liyabona Mxhalis (4).JPG" alt="Profile Picture">
+  </div>
+  
+  <section id="home">
+    <h1 div class="animate__animated animate__bounce animate__infinite infinite">Liyabona MXhalisa</div></h1>
+
+  </section>
+
+  <!-- About section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Student at LifeChoice Academy</p>
+  </section>
+
+<!-- Flip cards section -->
+<section id="flip-cards">
+  <h2>Skills</h2>
+  <div class="d-flex flex-wrap justify-content-center">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <img src="img/htmllogo.png" alt="Image 1">
+          <h4>HTML</h4>
+        </div>
+        <div class="flip-card-back">
+          <p>HTML is the standard markup language for Web pages.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <img src="./img/csspic.webp" alt="Image 1">
+          <h4>CSS</h4>
+        </div>
+        <div class="flip-card-back">
+          <p>CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <img src="./img/bootstrap.jpg" alt="Image 1">
+          <h4>BOOTSTRAP</h4>
+        </div>
+        <div class="flip-card-back">
+          <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact section -->
+<section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/xwkjaagq" method="POST">
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message:</label>
+          <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+  
+<!-- Footer section -->
+<footer class="footer">
+  <ul class="social-icons">
+    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+  </ul>
+  <p>&copy; 2023 My Portfolio. All Rights Reserved.</p>
+</footer>
+<!-- Bootstrap scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>    
